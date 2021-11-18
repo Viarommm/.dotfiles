@@ -1,2 +1,4 @@
 # .dotfiles
-My cfg files
+ABOBUS CFG
+
+BUBUBUBUB BEBEBEBE
