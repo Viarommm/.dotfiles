@@ -1,0 +1,33 @@
+]
+
+set mouse=a  " enable mouse
+set number
+set encoding=utf-8
+set number
+set noswapfile
+set scrolloff=7
+
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+set autoindent
+set fileformat=unix
+filetype indent on      " load filetype-specific indent files
+
+
+call plug#begin('.config/nvim/plugged')
+Plug 'joshdick/onedark.vim'
+Plug 'projekt0n/github-nvim-theme'
+
+
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+call plug#end()
+
+let g:github_colors = {
+  \ 'hint': 'orange'
+\ }
+
+
+colorscheme onedark
